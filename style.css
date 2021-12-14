@@ -48,7 +48,6 @@ main {
     background-position: bottom;
     min-height: 250px;
     width:30%;
-    padding-top: 45px;
 }
 
 .card2 {
@@ -57,7 +56,7 @@ main {
     background-position: bottom;
     min-height: 250px;
     width:30%;
-    padding-top: 45px;
+    
 }
 
 .card3 {
@@ -66,7 +65,7 @@ main {
     background-position: bottom;
     min-height: 250px;
     width: 30%;
-    padding-top: 45px;
+    
 }
 
 .herobox1 {
@@ -87,7 +86,7 @@ h1 {
 
 h2 {
     font-size: 1.65rem;
-    font-weight: 600;
+    font-weight: 700;
     font-family:'Poppins', sans-serif;
     margin-top: 20px;
 }
@@ -101,4 +100,11 @@ p {
     font-size: .80rem;
     line-height: 1.2rem;
     margin: 10px 30px 30px 30px;
+}
+
+.fas {
+    color:white;
+    font-size: 50px;
+    text-shadow: rgb(57, 56, 56);
+    padding-top: 40px;
 }
