@@ -6,7 +6,8 @@ body {
     background-image:linear-gradient(#FC5E55,#FA4083);
     display: flex;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 
@@ -73,5 +74,7 @@ footer {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 65px;
+    font-weight: 800;
+    font-family: font-family: 'Poppins', sans-serif;
 }
