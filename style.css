@@ -76,6 +76,7 @@ main {
 .card1, .card2, .card3 {
     padding: 45px 20px;
     box-sizing: border-box;
+    border-radius: 3px;
 }
 
 .herobox1 {
@@ -128,9 +129,14 @@ p {
     background-color:white;
     color: #FC5E55;
     padding: 11px 25px;
+    border-radius: 3px;
 }
 
 a.button {
     display:inline-block;
     margin-top: 15px;
+}
+
+.herobox2 img {
+    border-radius: 3px;
 }
