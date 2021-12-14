@@ -39,6 +39,7 @@ main {
 .cards {
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
 .card1 {
@@ -47,6 +48,7 @@ main {
     background-position: bottom;
     min-height: 250px;
     width:30%;
+    padding-top: 45px;
 }
 
 .card2 {
@@ -55,6 +57,7 @@ main {
     background-position: bottom;
     min-height: 250px;
     width:30%;
+    padding-top: 45px;
 }
 
 .card3 {
@@ -63,6 +66,7 @@ main {
     background-position: bottom;
     min-height: 250px;
     width: 30%;
+    padding-top: 45px;
 }
 
 .herobox1 {
@@ -81,7 +85,20 @@ h1 {
     margin-bottom: 1rem;
 }
 
+h2 {
+    font-size: 1.65rem;
+    font-weight: 600;
+    font-family:'Poppins', sans-serif;
+    margin-top: 20px;
+}
+
 p {
     line-height: 1.50rem;
     margin-bottom: 0.5rem;
+}
+
+.cards p {
+    font-size: .80rem;
+    line-height: 1.2rem;
+    margin: 10px 30px 30px 30px;
 }
