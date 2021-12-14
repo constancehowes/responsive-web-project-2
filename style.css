@@ -13,12 +13,14 @@ header {
 main {
     background-color: rgb(39, 187, 39);
     min-height: 300px;
+    display:flex;
 }
 
 .cards {
     background-color: rgb(21, 228, 21);
     min-height: 300px;
     display: flex;
+    justify-content: space-between;
 }
 
 footer {
@@ -29,17 +31,27 @@ footer {
 .card1 {
     background-color: hotpink;
     min-height: 300px;
-    width:33.3%;
+    width:30%;
 }
 
 .card2 {
     background-color: purple;
     min-height: 300px;
-    width:33.3%;
+    width:30%;
 }
 
 .card3 {
     background-color: orange;
     min-height: 300px;
-    width:33.3%;
+    width: 30%;
+}
+
+.herobox1 {
+    background-color: cornflowerblue;
+    flex: 2;
+}
+
+.herobox2 {
+    background-color: royalblue;
+    flex: 1;
 }
