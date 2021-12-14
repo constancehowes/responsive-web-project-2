@@ -102,6 +102,12 @@ p {
     margin: 10px 30px 30px 30px;
 }
 
+.cards a {
+    color: white;
+    text-decoration: none;
+}
+
+
 .fas {
     color:white;
     font-size: 55px;
