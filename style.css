@@ -135,7 +135,7 @@ p {
 .button:hover{
     background-color: #0cc6f0;
     color: white;
-    transition-duration: 1s;
+    transition-duration: .5s;
 
 }
 
