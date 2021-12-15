@@ -188,6 +188,22 @@ footer p {
     
 }
 
-.name {
+/*.tbox :last-child {
     font-style: italic;
+    font-size: .85rem;
+    padding-left: 20px;
+}*/
+
+.tbox p:first-of-type{
+    font-size: 5rem;
+    font-weight: 800;
+    font-family:'Poppins', sans-serif;
+
+}
+
+.tbox p:last-of-type {
+    font-size: .85rem;
+    padding-left: 20px;
+    font-style:italic;
+    font-weight: bold;
 }
