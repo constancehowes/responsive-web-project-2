@@ -185,21 +185,6 @@ a.button {
     margin-top: 50px;
 }
 
-footer {
-    background-color: rgb(45, 45, 45);
-    width: 1024px;
-    min-height: 200px;
-
-}
-
-footer p {
-    font-size: .75rem;
-    text-align: center;
-    padding-top: 100px;
-    color: rgba(220, 220, 220, 0.475);
-    
-}
-
 /*.tbox :last-child {
     font-style: italic;
     font-size: .85rem;
@@ -258,4 +243,19 @@ footer p {
 
 .dropdown .navbutton:hover a {
     color: white;
+}
+
+footer {
+    background-color: rgb(45, 45, 45);
+    width: 1024px;
+    min-height: 200px;
+
+}
+
+footer p {
+    font-size: .75rem;
+    text-align: center;
+    padding-top: 100px;
+    color: rgba(220, 220, 220, 0.475);
+    
 }
