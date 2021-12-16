@@ -1,10 +1,16 @@
-body {
+html {
     background-image:linear-gradient(#FC5E55,#FA4083);
+}
+
+body {
+    background-image: url("images/image-lion-background.png");
     display: flex;
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 1rem;
+    background-repeat: no-repeat;
+    background-position: top center;
 }
 
 a {
