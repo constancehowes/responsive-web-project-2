@@ -226,9 +226,30 @@ footer p {
 .dropdown { 
     display:none;
     z-index: 1;
+    padding-top: 10px;
+    text-align: center;
+    margin-left: -56px;
 }
 
 .navbutton:hover .dropdown{
     display: block;
     position:absolute;
+}
+
+.dropdown .navbutton {
+    background-color: white;
+}
+
+.dropdown .navbutton a {
+    color: #FC5E55;
+}
+
+.dropdown .navbutton:hover {
+    background-color: #0cc6f5;
+    transition-duration: 500ms;
+    color: white;
+}
+
+.dropdown .navbutton:hover a {
+    color: white;
 }
