@@ -73,9 +73,28 @@
             </h1>
 
             <p>
-                Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you
-                within a matter of hours to help you.
+                Please do not hesitate to contact us directly. Our team will email you
+                within a matter of hours.
             </p>
+
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+
+                    <li class="form">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user_name">
+                    </li>
+
+                    <li>
+                        <label for="mail">E-mail:</label>
+                        <input type="email" id="mail" name="user_email">
+                    </li> 
+
+                </ul>
+
+                    <button class="submitbutton" type="submit">Submit</button>
+
+            </form>
 
         </div>
 
